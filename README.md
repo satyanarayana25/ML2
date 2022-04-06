@@ -13,6 +13,9 @@ How well those variables describe the price of a house.
 
 Also, determine the optimal value of lambda for ridge and lasso regression.
 
+Business Goal
+
+The model is price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 Assignment Part-II
 
 Question 1
@@ -48,9 +51,17 @@ Regeression
 - after doing the EDA on data provide ppl are spending more money on buy the house which has the walking place and good comfort area and in good neighborhood and new building as well.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Data Preparation:
+- train and split 
+- 70% as training data
+- 30% as test data
+- MinMax Scalling.
+
 
 ## Conclusions
 - lasso regression is better when we compare with ridge
+R2_Score on train set:  0.9300994903116862
+R2_Score on test set:  0.9144293099107396
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
